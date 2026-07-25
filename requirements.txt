@@ -1,8 +1,8 @@
 pandas
 numpy
-streamlit == 1.45.1
+streamlit
 streamlit-option-menu
-scikit-learn == 1.2.2
+scikit-learn
 pyodbc
 jolib
 pyod
