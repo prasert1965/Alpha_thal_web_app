@@ -11,7 +11,7 @@ import streamlit as st
 import datetime
 
 
-current_time = datetime.now()
+#current_time = datetime.now()
 # Access it through the module
 today = datetime.date.today()
 
@@ -30,7 +30,7 @@ def EA_Alpha_thal_prediction(input_data):
 
      prediction = loaded_model.predict(input_data_reshaped)
      print(today)
-     print(current_time)
+    # print(current_time)
      print(input_data_as_numpy_array)
      print(prediction)
 
