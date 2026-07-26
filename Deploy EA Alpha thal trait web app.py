@@ -65,7 +65,7 @@ def main():
     with col4:
          RDW = st.text_input('RDW (fl)')
     st.write('From Phrae Adaboost model show accuracy 97% sensitivity 100% specificity 95% AUC 0.9737')
-    st.write('The validation research in Khon Kaen population show accuracy 63% FNN 97.9% ROC 75.4')
+    st.write('A performance evaluation of the adaboost model in the Khon Kaen population show acc 63% Sen 93.4% Spec 57.4% PPV 30.9% NPV 97.7% AUC 0.754')
     st.write('For future research: What is the performance of the AdaBoost model in your population?')
     # code for Prediction
     diagnosis = ''
