@@ -44,7 +44,7 @@ def main():
 
     # giving a title  
     st.title('Web for prediction Alpha Thalassemia carrier')   
-    
+    st.write('use for only prediction not diagnosis disease')
     # getting the input data from the user
     col1, col2, col3, col4 = st.columns(4)
     with col1:
