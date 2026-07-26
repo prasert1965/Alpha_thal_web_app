@@ -10,9 +10,9 @@ import pickle
 import streamlit as st
 import datetime
 import time  # Missing this line causes the error
+from datetime import datetime
 
-now = datetime.now()
-current_time = now.strftime("%H:%M:%S")
+print(datetime.now().time())
 
 #current_time = datetime.now()
 # Access it through the module
@@ -33,7 +33,7 @@ def EA_Alpha_thal_prediction(input_data):
 
      prediction = loaded_model.predict(input_data_reshaped)
      print(today)
-     print(current_time)
+    # print(current_time)
      print(input_data_as_numpy_array)
      print(prediction)
 
