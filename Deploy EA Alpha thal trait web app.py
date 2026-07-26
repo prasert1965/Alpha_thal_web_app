@@ -12,7 +12,6 @@ import datetime
 
 # Access it through the module
 today = datetime.date.today()
-print(today)
 
 # loading the saved model
 loaded_model = pickle.load(open('EAtrained_model.sav', 'rb'))
