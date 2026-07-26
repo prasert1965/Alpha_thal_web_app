@@ -9,7 +9,9 @@ import numpy as np
 import pickle
 import streamlit as st
 import datetime
+from datetime import datetime
 
+current_time = datetime.now()
 # Access it through the module
 today = datetime.date.today()
 
@@ -27,7 +29,7 @@ def EA_Alpha_thal_prediction(input_data):
      input_data_reshaped = input_data_as_numpy_array.reshape(1,-1)
 
      prediction = loaded_model.predict(input_data_reshaped)
-     print(today)
+     print(today),print(pcurrent_time)
      print(input_data_as_numpy_array)
      print(prediction)
 
