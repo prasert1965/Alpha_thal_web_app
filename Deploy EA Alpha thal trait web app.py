@@ -9,7 +9,11 @@ import numpy as np
 import pickle
 import streamlit as st
 import datetime
+import time  # Missing this line causes the error
 
+# Note the lowercase 't'
+
+print(time.time())
 
 #current_time = datetime.now()
 # Access it through the module
