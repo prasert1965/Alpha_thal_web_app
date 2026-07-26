@@ -37,7 +37,7 @@ def EA_Alpha_thal_prediction(input_data):
 
      prediction = loaded_model.predict(input_data_reshaped)
      print(today)
-     print(My_time)
+     print(my_time)
      print(input_data_as_numpy_array)
      print(prediction)
 
