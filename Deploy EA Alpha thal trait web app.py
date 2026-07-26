@@ -12,7 +12,7 @@ import datetime
 import time  # Missing this line causes the error
 
 # Note the lowercase 't'
-
+time.sleep(2) 
 print(time.time())
 
 #current_time = datetime.now()
