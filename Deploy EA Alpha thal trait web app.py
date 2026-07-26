@@ -65,7 +65,7 @@ def main():
     with col4:
          RDW = st.text_input('RDW (fl)')
     st.write('In 2024, From Phrae Adaboost model on Dataset3 demonstrated acc 97% sen 100% spec 95% AUC 0.974')
-    st.write('In 2026, A performance evaluation of the adaboost model in the Khon Kaen population show acc 63% Sen 93.4% Spec 57.4% PPV 30.9% NPV 97.7% AUC 0.754')
+    st.write('In 2026, A performance evaluation of the adaboost model in the Khon Kaen population showed acc 63% Sen 93.4% Spec 57.4% PPV 30.9% NPV 97.7% AUC 0.754')
     st.write('For future research: What is the performance of the AdaBoost model in your population?')
     # code for Prediction
     diagnosis = ''
