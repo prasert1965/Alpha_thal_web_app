@@ -64,9 +64,9 @@ def main():
          MCHC = st.text_input('MCHC (g/dl)')
     with col4:
          RDW = st.text_input('RDW (fl)')
-    st.write('From Phrae Adaboost model show accuracy 97% sensitivity 100% specificity 95% AUC 0.9737')
-    st.write('with research in Khon Kaen population show accuracy 63% FNN 97.9% ROC 75.4')
-    
+    st.write('2024 From Phrae Adaboost model show accuracy 97% sensitivity 100% specificity 95% AUC 0.9737')
+    st.write('2026 The validation research in Khon Kaen population show accuracy 63% FNN 97.9% ROC 75.4')
+    st.write('For future research: What is the performance of the AdaBoost model in your population?')
     # code for Prediction
     diagnosis = ''
     
