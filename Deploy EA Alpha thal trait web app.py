@@ -8,8 +8,11 @@ Created on Thu Mar 21 16:20:43 2024
 import numpy as np
 import pickle
 import streamlit as st
-#import LogisticRegression
-#import AdaBoostClassifier
+import datetime
+
+# Access it through the module
+today = datetime.date.today()
+print(today)
 
 # loading the saved model
 loaded_model = pickle.load(open('EAtrained_model.sav', 'rb'))
@@ -25,8 +28,7 @@ def EA_Alpha_thal_prediction(input_data):
      input_data_reshaped = input_data_as_numpy_array.reshape(1,-1)
 
      prediction = loaded_model.predict(input_data_reshaped)
-     print(Date())
-     print(Time())
+     print(today)
      print(input_data_as_numpy_array)
      print(prediction)
 
