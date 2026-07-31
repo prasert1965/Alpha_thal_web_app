@@ -92,6 +92,6 @@ components.html("""
         border-radius: 4px;
         cursor: pointer;
         font-size: 16px;">
-        🖨️ พิมพ์รายงาน (Print / Save as PDF)
+        🖨️ พิมพ์รายงานผลการทำนาย (Print / Save as PDF)
     </button>
 """, height=60)
