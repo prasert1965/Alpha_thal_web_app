@@ -43,7 +43,7 @@ def main():
 
     # giving a title  
     st.title('Web for prediction Alpha Thalassemia carrier')   
-    st.write('In 2024, From Phrae Adaboost model on Dataset3 demonstrated acc 97% sen 100% spec 95% AUC 0.974 In 2026, A performance evaluation of the adaboost model in the Khon Kaen population showed acc 63% Sen 93.4% Spec 57.4% PPV 30.9% NPV 97.7% AUC 0.754')
+    st.write('In 2024, From Phrae Adaboost model on Dataset3 demonstrated acc 97% sen 100% spec 95% AUC 0.974. In 2026, A performance evaluation of the adaboost model in the Khon Kaen population showed acc 63% Sen 93.4% Spec 57.4% PPV 30.9% NPV 97.7% AUC 0.754.')
 
     #st.write('Used for disease prediction only, cannot diagnose disease.!!!!!')
     #st.write('with research in Khon Kaen show accuracy 63% FNN 97.9% ROC 75.4')
