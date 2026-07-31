@@ -10,8 +10,7 @@ import pickle
 import streamlit as st
 import datetime
 import time  # Missing this line causes the error
-#from datetime import datetime
-
+import streamlit.components.v1 as components
 today = datetime.date.today()
 
 # loading the saved model
