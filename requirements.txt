@@ -7,3 +7,4 @@ pyodbc
 jolib
 pyod
 pytz
+fpdf
