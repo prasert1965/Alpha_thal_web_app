@@ -77,8 +77,8 @@ def main():
          diagnosis = EA_Alpha_thal_prediction([AGE, HCT, HGB, RBC, MCV, MCH, MCHC, RDW])        
         
     st.success(diagnosis)
-    st.write('Report by ...')   
-    
+    st.write('Report by ..................')   
+    st.write('Approve by Prasert Chantanaskulwong ') 
 if __name__ == '__main__':
     main() 
 #st.title("รายงานผลการทำนาย")
