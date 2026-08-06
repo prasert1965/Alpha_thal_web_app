@@ -78,7 +78,8 @@ def main():
         
     st.success(diagnosis)
     st.write('Report by ..................')   
-    st.write('Approve by Prasert Chantanaskulwong ') 
+    st.write('Approve by Prasert Chantanaskulwong ')
+    
 if __name__ == '__main__':
     main() 
 #st.title("รายงานผลการทำนาย")
