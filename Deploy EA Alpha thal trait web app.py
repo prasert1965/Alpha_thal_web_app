@@ -81,9 +81,9 @@ def main():
     with col1:
         st.write('Predicted by Phrae Adaboost ML Model ') 
     with col2:
-        st.write('Reported by ............................... ')   
+        st.write('Reported by ....................................................... ')   
     with col3:
-        st.write('Approved by ............................... ')
+        st.write('Approved by ....................................................... ')
     
 if __name__ == '__main__':
     main() 
