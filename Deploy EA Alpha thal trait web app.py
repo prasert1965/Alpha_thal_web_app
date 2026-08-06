@@ -79,11 +79,11 @@ def main():
     st.success(diagnosis)
     col1, col2, col3, = st.columns(3)
     with col1:
-        st.write('Predicted by .....Phrae Adaboost ML Model....... ') 
+        st.write('Predicted by ..Phrae Adaboost ML Model.. ') 
     with col2:
-        st.write('Reported by ....................................................... ')   
+        st.write('Reported by ......................................... ')   
     with col3:
-        st.write('Approved by ....................................................... ')
+        st.write('Approved by ......................................... ')
     
 if __name__ == '__main__':
     main() 
