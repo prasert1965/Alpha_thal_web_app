@@ -44,16 +44,13 @@ def EA_Alpha_thal_prediction(input_data):
        return 'This person is alpha thalassemia carrier'
      else:
        return 'This person is not alpha thalassemia carrier'
-  
-   
+     
 def main():
 
     # giving a title  
     st.title('Web for prediction Alpha Thalassemia carrier')   
     st.write('In 2024, From Phrae Adaboost model on Dataset3 demonstrated acc 97% sen 100% spec 95% AUC 0.974. In 2026, A performance evaluation of the adaboost model in the Khon Kaen population showed acc 63% Sen 93.4% Spec 57.4% PPV 30.9% NPV 97.7% AUC 0.754.')
 
-    #st.write('Used for disease prediction only, cannot diagnose disease.!!!!!')
-    #st.write('with research in Khon Kaen show accuracy 63% FNN 97.9% ROC 75.4')
     # getting the input data from the user
     col1, col2, col3, col4 = st.columns(4)
     with col1:
@@ -72,8 +69,7 @@ def main():
          MCHC = st.text_input('MCHC (g/dl)')
     with col4:
          RDW = st.text_input('RDW (fl)')
-   # st.write('In 2024, From Phrae Adaboost model on Dataset3 demonstrated acc 97% sen 100% spec 95% AUC 0.974 In 2026, A performance evaluation of the adaboost model in the Khon Kaen population showed acc 63% Sen 93.4% Spec 57.4% PPV 30.9% NPV 97.7% AUC 0.754')
-   # st.write('In 2026, A performance evaluation of the adaboost model in the Khon Kaen population showed acc 63% Sen 93.4% Spec 57.4% PPV 30.9% NPV 97.7% AUC 0.754')
+
     st.write('For future research: What is the performance of the AdaBoost model in your population?')
     # code for Prediction
     diagnosis = ''
