@@ -21,7 +21,7 @@ from datetime import datetime
 hide_style = """
     <style>
     #GithubIcon {visibility: hidden;}
-    #MainMenu (visibility: hidden;}
+    #MainMenu {visibility: hidden;}
     </style>
 """
    
