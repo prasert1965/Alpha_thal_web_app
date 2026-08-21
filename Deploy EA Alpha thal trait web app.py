@@ -18,25 +18,12 @@ import tempfile
 from fpdf import FPDF
 from datetime import datetime
 
-hide_badge_style = """
+hide_style = """
     <style>
-    /* Target the container for the Streamlit Community Cloud badge */
-    div[class^="viewerBadge_container"], 
-    div[class*="styles_viewerBadge"],
-    .viewerBadge_link__1S137,
-    iframe ~ div {
-        display: none !important;
-        visibility: hidden !important;
-    }
-    
-    /* Optional: Hide the default footer and main menu hamburger icon */
     #GithubIcon {visibility: hidden;}
-    footer {visibility: hidden;}
     </style>
 """
-
-# Inject CSS (Must set unsafe_allow_html to True)
-    
+   
 tz_thai = pytz.timezone('Asia/Bangkok')
 now_thai = datetime.now(tz_thai)
 current_time_str = now_thai.strftime("%d/%m/%y time %H:%M minute.")
@@ -67,7 +54,7 @@ def EA_Alpha_thal_prediction(input_data):
      
 def main():
     
-    st.markdown(hide_badge_style, unsafe_allow_html=True)
+    st.markdown(hide_style, unsafe_allow_html=True)
         
     # giving a title  
     st.title('Web for prediction Alpha Thalassemia carrier')   
