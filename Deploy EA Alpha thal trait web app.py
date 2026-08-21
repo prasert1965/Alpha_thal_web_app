@@ -32,6 +32,7 @@ hide_badge_style = """
     /* Optional: Hide the default footer and main menu hamburger icon */
     footer {visibility: hidden;}
     #MainMenu {visibility: hidden;}
+    #GithubIcon {visibility: hidden;}
     </style>
 """
 
