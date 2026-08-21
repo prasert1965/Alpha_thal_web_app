@@ -26,6 +26,24 @@ hide_style = """
     header {visibility: hidden;}
     </style>
 """
+hide_badge_style = """
+    <style>
+    /* Target the container for the Streamlit Community Cloud badge */
+    div[class^="viewerBadge_container"], 
+    div[class*="styles_viewerBadge"],
+    .viewerBadge_link__1S137,
+    iframe ~ div {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    
+    /* Optional: Hide the default footer and main menu hamburger icon */
+    footer {visibility: hidden;}
+    #MainMenu {visibility: hidden;}
+    </style>
+"""
+
+# Inject CSS (Must set unsafe_allow_html to True)
 
 tz_thai = pytz.timezone('Asia/Bangkok')
 now_thai = datetime.now(tz_thai)
@@ -58,6 +76,7 @@ def EA_Alpha_thal_prediction(input_data):
 def main():
     
     st.markdown(hide_style, unsafe_allow_html=True)
+    st.markdown(hide_badge_style, unsafe_allow_html=True)
     # giving a title  
     st.title('Web for prediction Alpha Thalassemia carrier')   
     st.write('In 2024, From Phrae Adaboost model on Dataset3 demonstrated acc 97% sen 100% spec 95% AUC 0.974. In 2026, A performance evaluation of the adaboost model in the Khon Kaen population showed acc 63% Sen 93.4% Spec 57.4% PPV 30.9% NPV 97.7% AUC 0.754.')
