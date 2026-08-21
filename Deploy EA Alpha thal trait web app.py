@@ -44,7 +44,7 @@ hide_badge_style = """
 """
 
 # Inject CSS (Must set unsafe_allow_html to True)
-    st.markdown(hide_badge_style, unsafe_allow_html=True)
+    
 tz_thai = pytz.timezone('Asia/Bangkok')
 now_thai = datetime.now(tz_thai)
 current_time_str = now_thai.strftime("%d/%m/%y time %H:%M minute.")
@@ -75,6 +75,7 @@ def EA_Alpha_thal_prediction(input_data):
      
 def main():
     
+    st.markdown(hide_badge_style, unsafe_allow_html=True)
     st.markdown(hide_style, unsafe_allow_html=True)
     
     # giving a title  
